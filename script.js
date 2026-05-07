@@ -51,6 +51,7 @@ console.log(student.name);
 
 console.log({}=={});
 // function sum(){
+
 //     let a=prompt("enter the value a");
 //     let b=prompt("enter the value b");
 //     let finalSum=a+b;
