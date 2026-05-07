@@ -66,3 +66,5 @@ function sum(){
 }
 sum();
 console.log(a);
+
+console.log("jai ho");
