@@ -36,20 +36,20 @@
 //     console.log("Student Is fail");
 // }
 
-let arr=[1,2,3,4,true,"five"];
-console.log(arr);
-for(let i in arr){
-console.log(arr[i]);
-}
+// let arr=[1,2,3,4,true,"five"];
+// console.log(arr);
+// for(let i in arr){
+// console.log(arr[i]);
+// }
 
-let student={
-name:"ayush",
-grade:"B",
-civicSence:0,
-}
-console.log(student.name);
+// let student={
+// name:"ayush",
+// grade:"B",
+// civicSence:0,
+// }
+// console.log(student.name);
 
-console.log({}=={});
+// console.log({}=={});
 // function sum(){
 
 //     let a=prompt("enter the value a");
@@ -59,12 +59,80 @@ console.log({}=={});
 // }
 // sum();
 
-let a=5;
-function sum(){
-    let b=10;
-    console.log(b);
-}
-sum();
-console.log(a);
+// let a=5;
+// function sum(){
+//     let b=10;
+//     console.log(b);
+// }
+// sum();
+// console.log(a);
 
-console.log("jai ho");
+// console.log("jai ho");
+// let changeColor=document.getElementById("h1").style.color="red";
+// console.log(changeColor
+// console.log(a);
+// var a=5;
+// let bodyColor=document.querySelectorAll("body").style.color="green";
+// console.log(bodyColor);
+// console.log(b);
+// let b=7;
+
+
+let arr=[1,2,3,4,5,5];
+console.log(arr.length);//length 
+
+// arr.push(6);
+// console.log(arr,'push');
+
+// arr.pop();
+// console.log(arr,'pop');
+
+// arr.unshift(0);
+// console.log(arr,'unshift');
+
+// arr.shift()
+// console.log(arr,'shift');
+
+// console.log(arr.includes(6),'include');
+// console.log(arr.indexOf(2),"indexof");
+
+// let data=arr.find((a)=>{
+//     return a==5;
+// });
+
+// arr.forEach((a,b,c)=>{
+
+// console.log(a,"a");
+
+
+// })
+// let arr1=arr.map((a,b,c,d)=>{
+//     return a;
+// })
+// console.log(arr1,"map");
+
+// let arr2=arr.filter((a)=>{
+//     return a>2;
+// })
+// console.log(arr2,"fillter");
+
+// let sum=arr.reduce((a,b,c,d)=>{
+//     console.log(a,"a");
+//     console.log(b,"B")
+    
+//     return a+b;
+
+    
+// })
+// console.log(sum);
+
+arra=[1,2,3,5,53,6,3,6,345,2]
+
+let redu=arra.filter((a)=>{
+    return a>2;
+    
+    
+})
+console.log(redu);
+
+
