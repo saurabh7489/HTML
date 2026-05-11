@@ -152,8 +152,19 @@
 // console.log(b);
 // console.log(c);
 
+// function sum(){
+//     let a=5
+// }
+// console.log(a);
+// sum()
+
+
+
+'use strict'
 function sum(){
-    let a=5
+    console.log(this);
 }
-console.log(a);
-sum()
+sum();
+
+
+
