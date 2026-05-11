@@ -160,11 +160,23 @@
 
 
 
-'use strict'
-function sum(){
-    console.log(this);
+// 'use strict'
+// function sum(){
+//     console.log(this);
+// }
+// sum();
+
+var id =10;
+let student ={
+    id:1,
+    name:"kathiRole",
+    isPass:true,
+    sum:function(){
+        console.log(this.id);
+    }
 }
-sum();
+console.log(student.name)
+student.sum();
 
 
 
