@@ -78,8 +78,8 @@
 // let b=7;
 
 
-let arr=[1,2,3,4,5,5];
-console.log(arr.length);//length 
+// let arr=[1,2,3,4,5,5];
+// console.log(arr.length);//length 
 
 // arr.push(6);
 // console.log(arr,'push');
@@ -126,13 +126,34 @@ console.log(arr.length);//length
 // })
 // console.log(sum);
 
-arra=[1,2,3,5,53,6,3,6,345,2]
+// arra=[1,2,3,5,53,6,3,6,345,2]
 
-let redu=arra.filter((a)=>{
-    return a>2;
+// let redu=arra.filter((a)=>{
+//     return a>2;
     
     
-})
-console.log(redu);
+// })
+// console.log(redu);
 
 
+// document.querySelector("*").style.backgroundColor="red";
+// // console.log(sum);
+// // document.querySelector("*").style.backgroundColor="red";
+// document.querySelector("h1").style.color="brown";
+// document.querySelector("h1").style.textAlign="center";
+
+// let b=30;
+// {
+//     var a=5;
+//     let b=10;
+//     const c=40;
+// }
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+function sum(){
+    let a=5
+}
+console.log(a);
+sum()
