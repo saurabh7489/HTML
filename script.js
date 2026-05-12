@@ -1,3 +1,7 @@
+
+document.querySelector("body").style.backgroundColor="gray";
+document.querySelector("h1").style.textAlign="center";
+
 // console.log("hello");
 // console.log(5+5);
 // console.log(5+"5");
@@ -166,17 +170,31 @@
 // }
 // sum();
 
-var id =10;
-let student ={
-    id:1,
-    name:"kathiRole",
+// var id =10;
+// let student ={
+//     id:1,
+//     name:"kathiRole",
+//     isPass:true,
+//     sum:function(){
+//         console.log(this.id);
+//     }
+// }
+// console.log(student.name)
+// student.sum();
+
+// var a=20;
+// {
+//     let c=30;
+//     var b=40;
+// }
+// console.log(a);
+// console.log(b);
+// console.log(c);
+let student={
+    id:2,
+    name:"unknown",
     isPass:true,
-    sum:function(){
-        console.log(this.id);
-    }
 }
-console.log(student.name)
-student.sum();
-
-
-
+// }
+// document.querySelector("body").style.backgroundColor="gray";
+// document.querySelector("h1").style.textAlign="center";
