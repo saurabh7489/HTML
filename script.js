@@ -198,3 +198,7 @@ let student={
 // }
 // document.querySelector("body").style.backgroundColor="gray";
 // document.querySelector("h1").style.textAlign="center";
+
+
+let student="sourabh";
+console.log(student)
