@@ -199,9 +199,3 @@ let student={
 // document.querySelector("body").style.backgroundColor="gray";
 // document.querySelector("h1").style.textAlign="center";
 
-
-let student={
-    name:"sourabh",
-    id:1,
-}
-console.log(student.name)
