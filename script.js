@@ -200,5 +200,8 @@ let student={
 // document.querySelector("h1").style.textAlign="center";
 
 
-let student="sourabh";
-console.log(student)
+let student={
+    name:"sourabh",
+    id:1,
+}
+console.log(student.name)
