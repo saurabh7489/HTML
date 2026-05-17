@@ -85,12 +85,12 @@
 
 // let city="bhopal"
 
-let change=document.querySelector("H2");
-change.innerText=change.innerText + " from appnyDuniya!"
-console.dir(change.innerText);
-let acces=document.querySelectorAll(".box");
-acces[0].innerText="jai ho";
-acces[1].innerText="jai ho";
-acces[2].innerText="jai ho";
+// let change=document.querySelector("H2");
+// change.innerText=change.innerText + " from appnyDuniya!"
+// console.dir(change.innerText);
+// let acces=document.querySelectorAll(".box");
+// acces[0].innerText="jai ho";
+// acces[1].innerText="jai ho";
+// acces[2].innerText="jai ho";
 
 
