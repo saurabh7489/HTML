@@ -94,3 +94,8 @@
 // acces[2].innerText="jai ho";
 
 
+let btn=document.createElement("button");
+btn.innerHTML="click me";
+btn.style.backgroundColor="red";
+btn.style.color="white";
+document.querySelector("body").prepend(btn);
