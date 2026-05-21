@@ -93,9 +93,16 @@
 // acces[1].innerText="jai ho";
 // acces[2].innerText="jai ho";
 
+// import data from './new.js'
+// console.log(data);
 
-let btn=document.createElement("button");
-btn.innerHTML="click me";
-btn.style.backgroundColor="red";
-btn.style.color="white";
-document.querySelector("body").prepend(btn);
+// import{data,sum} from'./new.js'
+
+
+// let btn=document.createElement("button");
+// btn.innerHTML="click me";
+// btn.style.backgroundColor="red";
+// btn.style.color="white";
+// document.querySelector("body").prepend(btn);
+
+console.log("hello")
