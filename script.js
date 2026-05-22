@@ -135,3 +135,14 @@ for(let i = 0; i < questions.length; i++){
 }
 let arr=[1,2,3,4,5]
 console.log(Array.prototype);
+
+let str="jai hoo";
+
+console.log(str.length);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+// let arr1=[str];
+console.log(str.replaceAll("j",""));
+let center=document.querySelector("p");
+center.style.textAlign="center";
+
