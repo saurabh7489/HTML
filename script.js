@@ -105,4 +105,31 @@
 // btn.style.color="white";
 // document.querySelector("body").prepend(btn);
 
-console.log("hello")
+// console.log("hello")
+const questions = [
+  {
+    question: "What is the capital of India?",
+    options: ["Mumbai", "Delhi", "Chennai", "Kolkata"],
+    answer: "Delhi"
+  },
+  {
+    question: "Which language runs in browser?",
+    options: ["Java", "C++", "Python", "JavaScript"],
+    answer: "JavaScript"
+  },
+  {
+    question: "What does HTML stand for?",
+    options: [
+      "Hyper Text Markup Language",
+      "High Text Machine Language",
+      "Hyper Tool Multi Language",
+      "Home Text Markup Language"
+    ],
+    answer: "Hyper Text Markup Language"
+  }
+];
+
+
+for(let i = 0; i < questions.length; i++){
+    console.log(questions[i].options[1]);
+}
