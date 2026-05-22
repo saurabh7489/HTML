@@ -133,3 +133,5 @@ const questions = [
 for(let i = 0; i < questions.length; i++){
     console.log(questions[i].options[1]);
 }
+let arr=[1,2,3,4,5]
+console.log(Array.prototype);
