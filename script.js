@@ -106,43 +106,47 @@
 // document.querySelector("body").prepend(btn);
 
 // console.log("hello")
-const questions = [
-  {
-    question: "What is the capital of India?",
-    options: ["Mumbai", "Delhi", "Chennai", "Kolkata"],
-    answer: "Delhi"
-  },
-  {
-    question: "Which language runs in browser?",
-    options: ["Java", "C++", "Python", "JavaScript"],
-    answer: "JavaScript"
-  },
-  {
-    question: "What does HTML stand for?",
-    options: [
-      "Hyper Text Markup Language",
-      "High Text Machine Language",
-      "Hyper Tool Multi Language",
-      "Home Text Markup Language"
-    ],
-    answer: "Hyper Text Markup Language"
-  }
-];
+// const questions = [
+//   {
+//     question: "What is the capital of India?",
+//     options: ["Mumbai", "Delhi", "Chennai", "Kolkata"],
+//     answer: "Delhi"
+//   },
+//   {
+//     question: "Which language runs in browser?",
+//     options: ["Java", "C++", "Python", "JavaScript"],
+//     answer: "JavaScript"
+//   },
+//   {
+//     question: "What does HTML stand for?",
+//     options: [
+//       "Hyper Text Markup Language",
+//       "High Text Machine Language",
+//       "Hyper Tool Multi Language",
+//       "Home Text Markup Language"
+//     ],
+//     answer: "Hyper Text Markup Language"
+//   }
+// ];
 
 
-for(let i = 0; i < questions.length; i++){
-    console.log(questions[i].options[1]);
-}
-let arr=[1,2,3,4,5]
-console.log(Array.prototype);
+// for(let i = 0; i < questions.length; i++){
+//     console.log(questions[i].options[1]);
+// }
+// let arr=[1,2,3,4,5]
+// console.log(Array.prototype);
 
-let str="jai hoo";
+// let str="jai hoo";
 
-console.log(str.length);
-console.log(str.toUpperCase());
-console.log(str.toLowerCase());
-// let arr1=[str];
-console.log(str.replaceAll("j",""));
-let center=document.querySelector("p");
-center.style.textAlign="center";
+// console.log(str.length);
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// // let arr1=[str];
+// console.log(str.replaceAll("j",""));
+// let center=document.querySelector("p");
+// center.style.textAlign="center";
 
+let para =document.querySelector("p");
+
+// para.setAttribute("class","newintro");
+para.classList.add("newintro");

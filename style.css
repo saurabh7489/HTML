@@ -1,7 +1,12 @@
-.box{
+.intro{
     height: 100px;
     width: 100px;
     border: 5px solid black;
     margin: 5px;
 text-align: center;
+color: blue;
+/* background-color: rgb(34, 225, 225); */
+}
+.newintro{
+    background-color: rgb(34, 225, 225);
 }
