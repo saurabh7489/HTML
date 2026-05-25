@@ -151,21 +151,21 @@
 // // para.setAttribute("class","newintro");
 // para.classList.add("newintro");
 
-let btn=document.querySelector("button");
+// let btn=document.querySelector("button");
 
-let currmode="light";
-let body=document.querySelector("body");
-btn.addEventListener("click",()=>{
-    if(currmode==="light"){
-        currmode="dark";
-       body.classList.add("dark");
-       body.classList.remove("light");
-    }
-    else{
-        currmode="light";
-       body.classList.add("light");
-       body.classList.remove("dark");
-    }
-    console.log(currmode);
-})
+// let currmode="light";
+// let body=document.querySelector("body");
+// btn.addEventListener("click",()=>{
+//     if(currmode==="light"){
+//         currmode="dark";
+//        body.classList.add("dark");
+//        body.classList.remove("light");
+//     }
+//     else{
+//         currmode="light";
+//        body.classList.add("light");
+//        body.classList.remove("dark");
+//     }
+//     console.log(currmode);
+// })
   
