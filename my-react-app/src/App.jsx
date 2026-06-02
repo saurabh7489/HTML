@@ -1,93 +1,19 @@
-import React, { useEffect, useState } from 'react'
-import'./app2.css'
-
-const Task = () => {
-    let [search, SetSearch] = useState("")
-    let [ApiData, SetApiData] = useState([])
-
-    console.log(search);
-
-    async function apiCall() {
-        console.log("");
-        if (!search.trim()) {
-            alert("EMPTY")
-            return;
-        }
-        let res = await fetch(`https://dummyjson.com/products/search?q=${search}`)
-        let data = await res.json()
-        console.log(data);
-        SetApiData(data.products)
-
-
-    }
-
-
-
-    useEffect(() => {
-        fetch('https://dummyjson.com/products').then((res) => {
-            return res.json()
-
-        }).then((data) => {
-            console.log(data);
-            SetApiData(data.products)
-
-
-        })
-    }, [])
-
-    function fun1(){
-        console.log("dortt");
-        
-       let sortData= [...ApiData].sort((a,b)=>{
-             return a.price-b.price
-
-        })
-        SetApiData(sortData)
-        console.log(sortData,"hello");
-        
-
-    }
-
-
-    function fun2(){
-        console.log("dortt");
-        
-       let sortData= [...ApiData].sort((a,b)=>{
-             return b.price-a.price
-
-        })
-        SetApiData(sortData)
-        console.log(sortData,"hello");
-        
-
-    }
-
-
-
-    return (
-        <div>
-            <input onChange={(e) => SetSearch(e.target.value)} />
-            <button onClick={apiCall}>click</button>
-            <button onClick={fun1}>low</button>
-            <button onClick={fun2}>high</button>
-
-
-            {
-                ApiData.map((a) => {
-                    return (<div>
-                        <img src={a.
-                            thumbnail
-                        } />
-                        <h3>{a.id}</h3>
-                        <h3>{a.price}</h3>
-
-
-                    </div>)
-                })
-            }
+import React from 'react'
+import './app2.css'
+const App = () => {
+  return (
+    <div>
+        <div id='nav'>
+        <Link to="/">
+            <li>home</li>
+            </Link>
+           <Link to="/about"> <li>about</li> 
+           </Link>
+            <Link to="/task"> <li>task</li>
+            </Link>
         </div>
-    )
+    </div>
+  )
 }
 
-export default Task
-
+export default App

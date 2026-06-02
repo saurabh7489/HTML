@@ -1,8 +1,22 @@
 *{
-    background-color:blanchedalmond;
-    color:black;
+    margin: 0px;
+    padding: 0px;
 }
-button{
+#nav{
+    height: 50px;
     background-color: black;
-    color: aliceblue;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+
+
 }
+li{
+   padding-left: 15px;
+   padding-right: 15px;
+
+list-style-type: none;
+}
+
