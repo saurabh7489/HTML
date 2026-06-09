@@ -1,17 +1,21 @@
 import React from 'react'
-import './app2.css'
-const App = () => {
+import NavBar from './NAVBAR'
+import { Routes, Route } from 'react-router-dom'
+import Home from './Home'
+import About from './About'
+import Task from './Task'
+
+
+function App() {
   return (
     <div>
-        <div id='nav'>
-        <Link to="/">
-            <li>home</li>
-            </Link>
-           <Link to="/about"> <li>about</li> 
-           </Link>
-            <Link to="/task"> <li>task</li>
-            </Link>
-        </div>
+      <NAVBAR/>
+      <Routes>
+        <Route path="/"   element={<Home/>}/>
+         <Route path="/about"   element={<About/>}/>
+          <Route path="/task"   element={<Task/>}/>
+      </Routes>
+      
     </div>
   )
 }
